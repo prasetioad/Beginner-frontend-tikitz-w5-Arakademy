@@ -1,0 +1,27 @@
+.t-header{
+    margin: 20px 10px;
+}
+
+.tik-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.t-post{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    border:1px solid red;
+    width: 450px;
+    height: 200px;
+    border-radius: 6px;
+    box-shadow: 0 1px 10px black;
+}
+
+.t-img-thumb{
+    padding: 15px;
+}
+
+.t-content{
+    margin-top: 5px;
+}
