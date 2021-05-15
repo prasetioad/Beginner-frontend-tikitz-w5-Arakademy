@@ -146,11 +146,11 @@
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 72px;
+    /* width: 100vw; */
     
 }
 
 .b-left{
-    
     margin-left: 130px;
     font-size: 24px;
     font-weight: bold;
@@ -160,6 +160,7 @@
     padding-right: 130px;
     margin-bottom: 0;
     padding-bottom: 0;
+    /* width: auto; */
 }
 
 .b-left a{
@@ -225,7 +226,7 @@ border-radius: 8px;
 
 .b-month-body{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     font-family: 'Mulish', sans-serif;
     margin-top: 52px;
     text-align: center;
@@ -506,7 +507,7 @@ border-radius: 8px;
 
 
 /* Extra small devices (phones, 337px and down) */
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:675px) {
     .b-nav-container {
         font-family: 'Mulish', sans-serif;
         width: 375;
@@ -745,17 +746,15 @@ border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-around   ;
-    width: 375px;
+    /* width: auto; */
     height: 376px;
 }
 
 .b-main-left{
     display: flex;
     justify-content: space-between;
-    width: 375px;
+    /* width: 100%; */
     margin-top: 20px;
-    
-    
 }
 
 .b-main-left .left{
@@ -981,6 +980,7 @@ border-radius: 8px;
 .b-foot-mobile .b-foot-icon p{
     display: none;
 }
+
 
 
 }
